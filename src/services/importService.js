@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/imports";
+const API = "https://server-quanlykho.onrender.com/api/imports";
 
 export const createImport = (data) => {
   return axios.post(API, {
